@@ -311,10 +311,21 @@ highlights-content .primary-btn i {
     margin-right: 20px;
 }
 
-.footer-social li a img {
+.footer-social li a {
     height: 32px;
     width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    background: #E7E7E8;
+    color: #969BAB;
+    transition: .3s;
+}
+
+.footer-social li a:hover {
+    background: #E02C6D;
+    color: #fff;
 }
 
 .footer-logo img {
